@@ -4,13 +4,13 @@
     <title>Next主题</title>
     <url>/2020/02/28/next-README/</url>
     <content><![CDATA[<h1 align="center">This repository is no longer maintained! :warning:</h1>
-<h2 align="center">The community-maintained version is here: <a href="https://github.com/theme-next/hexo-theme-next" target="_blank" rel="noopener">NexT v6 and v7 :triangular_flag_on_post:</a></h2>
+<h2 align="center">The community-maintained version is here: <a href="https://github.com/theme-next/hexo-theme-next">NexT v6 and v7 :triangular_flag_on_post:</a></h2>
 
 <h1 align="center">NexT</h1>
 
 <p align="center">NexT is a high quality elegant <a href="http://hexo.io" target="_blank" rel="noopener">Hexo</a> theme. It is crafted from scratch, with love.</p>
 
-<p><a href="https://gitter.im/iissnan/hexo-theme-next?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge" target="_blank" rel="noopener"><img src="https://badges.gitter.im/Join%20Chat.svg" alt="gitter-image"></a><br><a href="https://github.com/theme-next/hexo-theme-next" target="_blank" rel="noopener"><img src="https://img.shields.io/maintenance/yes/2017.svg" alt="mnt-image"></a><br><a href="https://travis-ci.org/iissnan/hexo-theme-next?branch=master" target="_blank" rel="noopener" title="Travis CI"><img src="https://travis-ci.org/iissnan/hexo-theme-next.svg?branch=master" alt="travis-image"></a><br><a href="https://github.com/iissnan/hexo-theme-next/releases" target="_blank" rel="noopener"><img src="https://img.shields.io/github/release/iissnan/hexo-theme-next.svg" alt="rel-image"></a><br><a href="http://hexo.io" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/hexo-%3E%3D%203.0-blue.svg" alt="hexo-image"></a><br><a href="LICENSE"><img src="https://img.shields.io/dub/l/vibe-d.svg" alt="lic-image"></a></p>
+<p><a href="https://gitter.im/iissnan/hexo-theme-next?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge" target="_blank" rel="noopener"><img src="https://badges.gitter.im/Join%20Chat.svg" alt="gitter-image"></a><br><a href="https://github.com/theme-next/hexo-theme-next"><img src="https://img.shields.io/maintenance/yes/2017.svg" alt="mnt-image"></a><br><a href="https://travis-ci.org/iissnan/hexo-theme-next?branch=master" target="_blank" rel="noopener" title="Travis CI"><img src="https://travis-ci.org/iissnan/hexo-theme-next.svg?branch=master" alt="travis-image"></a><br><a href="https://github.com/iissnan/hexo-theme-next/releases"><img src="https://img.shields.io/github/release/iissnan/hexo-theme-next.svg" alt="rel-image"></a><br><a href="http://hexo.io" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/hexo-%3E%3D%203.0-blue.svg" alt="hexo-image"></a><br><a href="LICENSE"><img src="https://img.shields.io/dub/l/vibe-d.svg" alt="lic-image"></a></p>
 <ul>
 <li><a href="README.cn.md">Chinese Documentation</a></li>
 </ul>
@@ -22,21 +22,21 @@
 <li>:pisces: Pisces scheme: <a href="http://notes.iissnan.com" target="_blank" rel="noopener">Vi</a> | <a href="https://acris.me" target="_blank" rel="noopener">Acris</a> | <a href="https://rainylog.com" target="_blank" rel="noopener">Rainy</a></li>
 <li>:gemini: Gemini scheme: <a href="https://almostover.ru" target="_blank" rel="noopener">Ivan.Nginx</a> | <a href="https://raincal.com" target="_blank" rel="noopener">Raincal</a> | <a href="https://dandyxu.me" target="_blank" rel="noopener">Dandy</a></li>
 </ul>
-<p>More NexT examples <a href="https://github.com/iissnan/hexo-theme-next/issues/119" target="_blank" rel="noopener">here</a>.</p>
+<p>More NexT examples <a href="https://github.com/iissnan/hexo-theme-next/issues/119">here</a>.</p>
 <h2 id="Installation"><a href="#Installation" class="headerlink" title="Installation"></a>Installation</h2><p><strong>1.</strong> Change dir to <strong>hexo root</strong> directory. There must be <code>node_modules</code>, <code>source</code>, <code>themes</code> and other directories:<br>   <figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> hexo</span><br><span class="line">$ ls</span><br><span class="line">_config.yml  node_modules  package.json  public  scaffolds  <span class="built_in">source</span>  themes</span><br></pre></td></tr></table></figure></p>
 <p><strong>2.</strong> Get theme from GitHub. There are several variants to do it:</p>
-<h3 id="Download-latest-release-version"><a href="#Download-latest-release-version" class="headerlink" title="Download latest release version."></a>Download <a href="https://github.com/iissnan/hexo-theme-next/releases/latest" target="_blank" rel="noopener">latest release version</a>.</h3><p>   At most cases <strong>stable</strong>. Recommended for most users.</p>
+<h3 id="Download-latest-release-version"><a href="#Download-latest-release-version" class="headerlink" title="Download latest release version."></a>Download <a href="https://github.com/iissnan/hexo-theme-next/releases/latest">latest release version</a>.</h3><p>   At most cases <strong>stable</strong>. Recommended for most users.</p>
 <p>   <a href="http://lmgtfy.com/?q=linux+curl+tar+wget+install" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/install%20with%20-curl%20%7C%20tar%20%7C%20wget-blue.svg" alt="curl-tar-wget-image"></a></p>
    <figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">$ mkdir themes/next</span><br><span class="line">$ curl -s https://api.github.com/repos/iissnan/hexo-theme-next/releases/latest | grep tarball_url | cut -d <span class="string">'"'</span> -f 4 | wget -i - -O- | tar -zx -C themes/next --strip-components=1</span><br></pre></td></tr></table></figure>
 
-<h3 id="Download-tagged-release-version"><a href="#Download-tagged-release-version" class="headerlink" title="Download tagged release version."></a>Download <a href="https://github.com/iissnan/hexo-theme-next/releases" target="_blank" rel="noopener">tagged release version</a>.</h3><p>   You must define version. Replace <code>v5.1.2</code> with any version from <a href="https://github.com/iissnan/hexo-theme-next/tags" target="_blank" rel="noopener">tags list</a>.</p>
+<h3 id="Download-tagged-release-version"><a href="#Download-tagged-release-version" class="headerlink" title="Download tagged release version."></a>Download <a href="https://github.com/iissnan/hexo-theme-next/releases">tagged release version</a>.</h3><p>   You must define version. Replace <code>v5.1.2</code> with any version from <a href="https://github.com/iissnan/hexo-theme-next/tags">tags list</a>.</p>
 <p>   <a href="http://lmgtfy.com/?q=linux+curl+tar+install" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/install%20with%20-curl%20%7C%20tar-blue.svg" alt="curl-tar-image"></a></p>
    <figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">$ mkdir themes/next</span><br><span class="line">$ curl -L https://api.github.com/repos/iissnan/hexo-theme-next/tarball/v5.1.2 | tar -zxv -C themes/next --strip-components=1</span><br></pre></td></tr></table></figure>
 
 <p>   <a href="http://lmgtfy.com/?q=linux+git+install" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/install%20with%20-git-blue.svg" alt="git-image"></a></p>
    <figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> --branch v5.1.2 https://github.com/iissnan/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure>
 
-<h3 id="Download-latest-master-branch"><a href="#Download-latest-master-branch" class="headerlink" title="Download latest master branch."></a>Download <a href="https://github.com/iissnan/hexo-theme-next/archive/master.zip" target="_blank" rel="noopener">latest master branch</a>.</h3><p>   May be <strong>unstable</strong>, but includes latest features. Recommended for developers.</p>
+<h3 id="Download-latest-master-branch"><a href="#Download-latest-master-branch" class="headerlink" title="Download latest master branch."></a>Download <a href="https://github.com/iissnan/hexo-theme-next/archive/master.zip">latest master branch</a>.</h3><p>   May be <strong>unstable</strong>, but includes latest features. Recommended for developers.</p>
 <p>   <a href="http://lmgtfy.com/?q=linux+curl+tar+install" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/install%20with%20-curl%20%7C%20tar-blue.svg" alt="curl-tar-image"></a></p>
    <figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">$ mkdir themes/next</span><br><span class="line">$ curl -L https://api.github.com/repos/iissnan/hexo-theme-next/tarball | tar -zxv -C themes/next --strip-components=1</span><br></pre></td></tr></table></figure>
 
@@ -46,14 +46,14 @@
 <p>   Clone command will give you the <strong>whole repository</strong>. And in any time you can switch to any tagged release.<br>   Get tags list:</p>
    <figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> themes/next</span><br><span class="line">$ git tag -l</span><br><span class="line">…</span><br><span class="line">v5.0.0</span><br><span class="line">v5.0.1</span><br><span class="line">v5.1.0</span><br><span class="line">v5.1.1</span><br><span class="line">v5.1.2</span><br></pre></td></tr></table></figure>
 
-<p>   For example, you want to switch on <code>v5.1.0</code> <a href="https://github.com/iissnan/hexo-theme-next/tags" target="_blank" rel="noopener">tagged release version</a>. Input the following command:</p>
+<p>   For example, you want to switch on <code>v5.1.0</code> <a href="https://github.com/iissnan/hexo-theme-next/tags">tagged release version</a>. Input the following command:</p>
    <figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">$ git checkout tags/v5.1.0</span><br><span class="line">Note: checking out <span class="string">'tags/v5.1.0'</span>.</span><br><span class="line">…</span><br><span class="line">HEAD now on 1f72f68... CSS: Remove global list-style setting of ul</span><br></pre></td></tr></table></figure>
 
-<p>   And if you want to switch back on <a href="https://github.com/iissnan/hexo-theme-next/commits/master" target="_blank" rel="noopener">master branch</a>, input this command:</p>
+<p>   And if you want to switch back on <a href="https://github.com/iissnan/hexo-theme-next/commits/master">master branch</a>, input this command:</p>
    <figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">$ git checkout master</span><br></pre></td></tr></table></figure>
 
 <p><strong>3.</strong> Set theme in main <strong>hexo root config</strong> <code>_config.yml</code> file:</p>
-<pre><code>theme: next</code></pre><h3 id="Bugs"><a href="#Bugs" class="headerlink" title="Bugs"></a>Bugs</h3><p>For those who also encounter <strong>Error: Cannot find module ‘hexo-util’</strong> <a href="https://github.com/iissnan/hexo-theme-next/issues/1490" target="_blank" rel="noopener">issue</a>, please check your NPM version.</p>
+<pre><code>theme: next</code></pre><h3 id="Bugs"><a href="#Bugs" class="headerlink" title="Bugs"></a>Bugs</h3><p>For those who also encounter <strong>Error: Cannot find module ‘hexo-util’</strong> <a href="https://github.com/iissnan/hexo-theme-next/issues/1490">issue</a>, please check your NPM version.</p>
 <ul>
 <li><code>&gt; 3</code>: Still not work. Please remove <code>node_modules</code> directory and reinstall using <code>npm install</code>.</li>
 <li><code>&lt; 3</code>: Please add <code>hexo-util</code> explicitly via <code>npm install --save-dev hexo-util</code> to you site package deps.</li>
@@ -64,7 +64,7 @@
 <p>Commit your changes or stash them before you can merge</p>
 </blockquote>
 <p>You must Commit, Stash or Discard local changes. See <a href="https://stackoverflow.com/a/15745424/5861495" target="_blank" rel="noopener">here</a> how to do it.</p>
-<h3 id="Theme-configurations-using-Hexo-data-files-328"><a href="#Theme-configurations-using-Hexo-data-files-328" class="headerlink" title="Theme configurations using Hexo data files (#328)"></a>Theme configurations using Hexo data files (<a href="https://github.com/iissnan/hexo-theme-next/issues/328" target="_blank" rel="noopener">#328</a>)</h3><p>Currently, it is not smooth to update NexT theme from pulling or downloading new releases. It is quite often running into conflict status when updating NexT theme via <code>git pull</code>, or need to merge configurations manually when upgrading to new releases.</p>
+<h3 id="Theme-configurations-using-Hexo-data-files-328"><a href="#Theme-configurations-using-Hexo-data-files-328" class="headerlink" title="Theme configurations using Hexo data files (#328)"></a>Theme configurations using Hexo data files (<a href="https://github.com/iissnan/hexo-theme-next/issues/328">#328</a>)</h3><p>Currently, it is not smooth to update NexT theme from pulling or downloading new releases. It is quite often running into conflict status when updating NexT theme via <code>git pull</code>, or need to merge configurations manually when upgrading to new releases.</p>
 <p> At present, NexT encourages users to store some options in site’s <code>_config.yml</code> and other options in theme’s <code>_config.yml</code>. This approach is applicable, but has some drawbacks:</p>
 <ol>
 <li>Configurations are splited into two pieces</li>
@@ -141,9 +141,9 @@ type: &quot;categories&quot;</code></pre></li>
 <li><p><code>rss: http://your-feed-url</code> set specific feed link.</p>
 </li>
 </ol>
-<h3 id="Up-to-5-code-highlight-themes-built-in"><a href="#Up-to-5-code-highlight-themes-built-in" class="headerlink" title="Up to 5 code highlight themes built-in."></a>Up to 5 code highlight themes built-in.</h3><p>NexT uses <a href="https://github.com/chriskempson/tomorrow-theme" target="_blank" rel="noopener">Tomorrow Theme</a> with 5 themes for you to choose from.<br>Next use <code>normal</code> by default. Have a preview about <code>normal</code> and <code>night</code>:</p>
+<h3 id="Up-to-5-code-highlight-themes-built-in"><a href="#Up-to-5-code-highlight-themes-built-in" class="headerlink" title="Up to 5 code highlight themes built-in."></a>Up to 5 code highlight themes built-in.</h3><p>NexT uses <a href="https://github.com/chriskempson/tomorrow-theme">Tomorrow Theme</a> with 5 themes for you to choose from.<br>Next use <code>normal</code> by default. Have a preview about <code>normal</code> and <code>night</code>:</p>
 <p><img src="http://iissnan.com/nexus/next/tomorrow-normal.png" alt="Tomorrow Normal Preview"><br><img src="http://iissnan.com/nexus/next/tomorrow-night.png" alt="Tomorrow Night Preview"></p>
-<p>Head over to <a href="https://github.com/chriskempson/tomorrow-theme" target="_blank" rel="noopener">Tomorrow Theme</a> for more details.</p>
+<p>Head over to <a href="https://github.com/chriskempson/tomorrow-theme">Tomorrow Theme</a> for more details.</p>
 <h2 id="Configuration"><a href="#Configuration" class="headerlink" title="Configuration"></a>Configuration</h2><p>NexT comes with few configurations.</p>
 <figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment"># Menu configuration.</span></span><br><span class="line"><span class="attr">menu:</span></span><br><span class="line">  <span class="attr">home:</span> <span class="string">/</span></span><br><span class="line">  <span class="attr">archives:</span> <span class="string">/archives</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Favicon</span></span><br><span class="line"><span class="attr">favicon:</span> <span class="string">/favicon.ico</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Avatar (put the image into next/source/images/)</span></span><br><span class="line"><span class="comment"># can be any image format supported by web browsers (JPEG,PNG,GIF,SVG,..)</span></span><br><span class="line"><span class="attr">avatar:</span> <span class="string">/default_avatar.png</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Code highlight theme</span></span><br><span class="line"><span class="comment"># available: normal | night | night eighties | night blue | night bright</span></span><br><span class="line"><span class="attr">highlight_theme:</span> <span class="string">normal</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Fancybox for image gallery</span></span><br><span class="line"><span class="attr">fancybox:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Specify the date when the site was setup</span></span><br><span class="line"><span class="attr">since:</span> <span class="number">2013</span></span><br></pre></td></tr></table></figure>
 
@@ -169,10 +169,10 @@ type: &quot;categories&quot;</code></pre></li>
 <!--[lic-image]: https://img.shields.io/npm/l/hexo-theme-next.svg-->
 ]]></content>
       <categories>
-        <category>主题设置阅读须知</category>
+        <category>建站</category>
       </categories>
       <tags>
-        <tag>next</tag>
+        <tag>主题</tag>
       </tags>
   </entry>
   <entry>
@@ -198,7 +198,7 @@ type: &quot;categories&quot;</code></pre></li>
 <h2 id="Support"><a href="#Support" class="headerlink" title="Support"></a>Support</h2><p>Did Fexo help you? Join the open collective at <a href="https://opencollective.com/fexo" target="_blank" rel="noopener">https://opencollective.com/fexo</a></p>
 <h3 id="Contributing"><a href="#Contributing" class="headerlink" title="Contributing"></a>Contributing</h3><p>All kinds of contributions are welcome.<br>All pull requests should be done on the dev branch.</p>
 <p>欢迎任何改善的贡献，欢迎 Pull request 到 dev 分支。</p>
-<h2 id="Contributors"><a href="#Contributors" class="headerlink" title="Contributors"></a>Contributors</h2><h3 id="Code-Contributors"><a href="#Code-Contributors" class="headerlink" title="Code Contributors"></a>Code Contributors</h3><p>This project exists thanks to all the people who contribute. [<a href="CONTRIBUTING.md">Contribute</a>].<br><a href="https://github.com/forsigner/fexo/graphs/contributors" target="_blank" rel="noopener"><img src="https://opencollective.com/fexo/contributors.svg?width=890&button=false" /></a></p>
+<h2 id="Contributors"><a href="#Contributors" class="headerlink" title="Contributors"></a>Contributors</h2><h3 id="Code-Contributors"><a href="#Code-Contributors" class="headerlink" title="Code Contributors"></a>Code Contributors</h3><p>This project exists thanks to all the people who contribute. [<a href="CONTRIBUTING.md">Contribute</a>].<br><a href="https://github.com/forsigner/fexo/graphs/contributors"><img src="https://opencollective.com/fexo/contributors.svg?width=890&button=false" /></a></p>
 <h3 id="Financial-Contributors"><a href="#Financial-Contributors" class="headerlink" title="Financial Contributors"></a>Financial Contributors</h3><p>Become a financial contributor and help us sustain our community. [<a href="https://opencollective.com/fexo/contribute" target="_blank" rel="noopener">Contribute</a>]</p>
 <h4 id="Individuals"><a href="#Individuals" class="headerlink" title="Individuals"></a>Individuals</h4><p><a href="https://opencollective.com/fexo" target="_blank" rel="noopener"><img src="https://opencollective.com/fexo/individuals.svg?width=890"></a></p>
 <h4 id="Organizations"><a href="#Organizations" class="headerlink" title="Organizations"></a>Organizations</h4><p>Support this project with your organization. Your logo will show up here with a link to your website. [<a href="https://opencollective.com/fexo/contribute" target="_blank" rel="noopener">Contribute</a>]</p>
@@ -206,10 +206,10 @@ type: &quot;categories&quot;</code></pre></li>
 <h3 id="License"><a href="#License" class="headerlink" title="License"></a>License</h3><p><a href="LICENSE">MIT</a></p>
 ]]></content>
       <categories>
-        <category>主题设置阅读须知</category>
+        <category>建站</category>
       </categories>
       <tags>
-        <tag>fexo</tag>
+        <tag>主题</tag>
       </tags>
   </entry>
   <entry>
@@ -224,16 +224,16 @@ type: &quot;categories&quot;</code></pre></li>
 <p>——联系方式：qq1605699120</p>
 ]]></content>
       <categories>
-        <category>垃圾</category>
+        <category>建站</category>
       </categories>
       <tags>
-        <tag>others</tag>
+        <tag>笔记</tag>
       </tags>
   </entry>
   <entry>
     <title>Hello World</title>
     <url>/2020/02/27/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
@@ -248,10 +248,10 @@ type: &quot;categories&quot;</code></pre></li>
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 ]]></content>
       <categories>
-        <category>垃圾</category>
+        <category>建站</category>
       </categories>
       <tags>
-        <tag>others</tag>
+        <tag>笔记</tag>
       </tags>
   </entry>
 </search>
